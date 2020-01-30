@@ -1,0 +1,146 @@
+html, body {
+    margin: 8px 8px;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.h60 {
+    height: 60px;
+}
+
+.header {
+    background-color: #87e6ed;
+}
+
+.navigacija {
+    width: 600px;
+    position: absolute;
+    right: 10px;
+    top: 22px;
+}
+
+.navigacija-saraksts {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.navigacija-saraksts li {
+    display: inline-block;
+}
+
+.nav {
+    background-color: #dbfdff;
+    padding: 7px 15px;
+    color: #bd0f74;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: all 0.8s;
+}
+
+.nav:hover {
+    background-color: #bd0f74;
+    color: #dbfdff;
+}
+
+.nav:hover .apaksnavigacija {
+    display: block;
+}
+
+.apaksnavigacija {
+    position: absolute;
+    padding: 10px;
+    display: none;
+}
+
+.apaksnavigacija li {
+    display: block;
+    
+}
+
+.logo {
+    background-color: #bd0f74;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 55px;
+    font-size: 2em;
+    font-family: sans-serif;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin: 5px 0 0 0;
+}
+
+.teksts {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 19px;
+}
+
+.paragrafs {
+    width: 65%;
+    float: left;
+}
+
+.paragrafs2 {
+    width: 35%;
+    float: left;
+}
+
+.sanu-bloks {
+    font-family: serif;
+    font-size: 19px;
+    background-color: lightcyan;
+    border-left: 8px solid #bd0f74;
+    padding: 15px;
+    margin: 15px 0 15px 15px;
+}
+
+.apaksteksts {
+    background-color: #d1c7c7;
+    position: relative;
+    top: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+.h120 {
+    height: 120px;
+}
+
+.artikuli {
+    width: 960px;
+    position: absolute;
+    top: 15px;
+    margin: 10px 0 0 0;
+}
+
+.kolonas {
+    width: 29%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+}
+
+.footers {
+    background-color: #222130;
+    padding: 20px 0 0 0;
+    position: relative;
+    top: 700px;
+}
+
+.paraksts {
+    color: #fff;
+    text-align: right;
+}
+
